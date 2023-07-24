@@ -1,5 +1,5 @@
 # BGL NSDI 2023
-This is the source code of BGL, published in NSDI 2023.
+This is the source code of BGL: GPU-Efficient GNN Training by Optimizing Graph Data I/O and Preprocessing,  published in NSDI 2023.
 
 We build BGL on the top of DGL v 0.5.0. 
 
@@ -20,6 +20,25 @@ The graph partition module is based on the GMiner partition algorithm, which is 
 We have testes three GNN models: GraphSAGE, GCN and GAT.
 
 The models and running scripts are in examples/pytorch/graphsage/experimental.
+
+## Cite
+
+If you use our codes and want to cite our paper, use following bibtex
+```
+@inproceedings {285052,
+author = {Tianfeng Liu and Yangrui Chen and Dan Li and Chuan Wu and Yibo Zhu and Jun He and Yanghua Peng and Hongzheng Chen and Hongzhi Chen and Chuanxiong Guo},
+title = {{BGL}: {GPU-Efficient} {GNN} Training by Optimizing Graph Data {I/O} and Preprocessing},
+booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+year = {2023},
+isbn = {978-1-939133-33-5},
+address = {Boston, MA},
+pages = {103--118},
+url = {https://www.usenix.org/conference/nsdi23/presentation/liu-tianfeng},
+publisher = {USENIX Association},
+month = apr,
+}
+```
+
 
 
 
