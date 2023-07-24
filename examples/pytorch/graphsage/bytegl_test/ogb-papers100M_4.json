@@ -1,0 +1,26 @@
+{
+    "edge_map": "",
+    "graph_name": "ogb-papers100M_4",
+    "halo_hops": 1,
+    "node_map": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/node_map.dgl",
+    "num_edges": 1615685872,
+    "num_nodes": 111059956,
+    "num_parts": 4,
+    "part-0": {
+        "node_feats": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_0/node_feat.dgl",
+        "part_graph": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_0/graph.dgl"
+    },
+    "part-1": {
+        "node_feats": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_1/node_feat.dgl",
+        "part_graph": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_1/graph.dgl"
+    },
+    "part-2": {
+        "node_feats": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_2/node_feat.dgl",
+        "part_graph": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_2/graph.dgl"
+    },
+    "part-3": {
+        "node_feats": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_3/node_feat.dgl",
+        "part_graph": "hdfs://haruna/user/yrchen/experiment/dataset/ogb-papers100M_4/part_3/graph.dgl"
+    },
+    "part_method": "GMiner"
+}

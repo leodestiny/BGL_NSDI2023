@@ -1,0 +1,30 @@
+{
+    "edge_map": "",
+    "graph_name": "aweme_ad_4",
+    "halo_hops": 1,
+    "node_map": "global_node_map.npy",
+    "num_edges": 1615685872,
+    "num_nodes": 550896415,
+    "num_parts": 4,
+    "part-0": {
+        "edge_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_0/edge_feat.dgl",
+        "node_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_0/node_feat96.dgl",
+        "part_graph": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_0/graph.dgl"
+    },
+    "part-1": {
+        "edge_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_1/edge_feat.dgl",
+        "node_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_1/node_feat96.dgl",
+        "part_graph": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_1/graph.dgl"
+    },
+    "part-2": {
+        "edge_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_2/edge_feat.dgl",
+        "node_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_2/node_feat96.dgl",
+        "part_graph": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_2/graph.dgl"
+    },
+    "part-3": {
+        "edge_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_3/edge_feat.dgl",
+        "node_feats": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_3/node_feat96.dgl",
+        "part_graph": "/home/tiger/dgl/examples/pytorch/graphsage/experimental/user_ad/global_part_3/graph.dgl"
+    },
+    "part_method": "GMiner"
+}
