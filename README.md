@@ -1,6 +1,8 @@
 # BGL NSDI 2023
 This is the source code of BGL, published in NSDI 2023.
+
 We build BGL on the top of DGL v 0.5.0. 
+
 Hence, to run BGL, you should build DGL firstly by following the DGL compilation command(https://docs.dgl.ai/install/index.html#install-from-source).
 
 
@@ -8,12 +10,15 @@ Hence, to run BGL, you should build DGL firstly by following the DGL compilation
 We have three key components in BGL, feature cache engine, graph partition module and async training pipeline.
 
 The source code of feature cache engine and async training pipeline is in the file src/rpc/multi_gpu_tensor_cache_engine.cc 
+
 The proximity-aware ordering is in the file src/graph/graph_traversal.cc
+
 The graph partition module is based on the GMiner partition algorithm, which is open-sourced in https://github.com/yaobaiwei/GMiner
 
 
 ## Example
 We have testes three GNN models: GraphSAGE, GCN and GAT.
+
 The models and running scripts are in examples/pytorch/graphsage/experimental.
 
 
