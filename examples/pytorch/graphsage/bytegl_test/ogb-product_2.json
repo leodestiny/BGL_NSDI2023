@@ -1,0 +1,20 @@
+{
+    "edge_map": "",
+    "graph_name": "ogb-product_2",
+    "halo_hops": 1,
+    "node_map": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/node_map.dgl",
+    "num_edges": 123718280,
+    "num_nodes": 2449029,
+    "num_parts": 2,
+    "part-0": {
+        "edge_feats": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/part_0/edge_feat.dgl",
+        "node_feats": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/part_0/node_feat.dgl",
+        "part_graph": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/part_0/graph.dgl"
+    },
+    "part-1": {
+        "edge_feats": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/part_1/edge_feat.dgl",
+        "node_feats": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/part_1/node_feat.dgl",
+        "part_graph": "hdfs://haruna/user/yrchen/euler2gminer/dgl_data/ogb-product_2/part_1/graph.dgl"
+    },
+    "part_method": "GMiner"
+}
