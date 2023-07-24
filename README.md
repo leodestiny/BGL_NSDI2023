@@ -13,8 +13,7 @@ The source code of feature cache engine and async training pipeline is in the fi
 
 The proximity-aware ordering is in the file src/graph/graph_traversal.cc
 
-The graph partition module is based on the GMiner partition algorithm, which is open-sourced in https://github.com/yaobaiwei/GMiner
-
+The graph partition module is based on the GMiner partition algorithm, which is open-sourced in https://github.com/yaobaiwei/GMiner. We provide the main codes of partition algorithm in the examples/pytorch/graphsage/experimental/partition_codes
 
 ## Example
 We have testes three GNN models: GraphSAGE, GCN and GAT.
